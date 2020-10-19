@@ -5,7 +5,7 @@ from . import views
 
 app_name = 'instagram'
 urlpatterns = [
-    path('', views.home,name='home'),
+    # path('', views.home,name='home'),
 ]
 if settings.DEBUG:
     urlpatterns+= static(
