@@ -2,7 +2,7 @@
 
 # PhotoGallery
 
-#### **Monday October 12 2020** ;
+#### ** Friday, October 23 2020** ;
 
 ---
 
