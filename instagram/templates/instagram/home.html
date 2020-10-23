@@ -22,8 +22,8 @@
                     {%  endif %}
                 </div>
             </div>
-            <div class="card-body mb-2 align-items-center" style="background-color: rgba(255, 255, 255, 0.1)">
-                <a style="color: rgba(255, 255, 255, 0.5) !important;" href="{% url 'post-detail' post.id %}">
+            <div class="card-body mb-2 align-items-center">
+                <a href="{% url 'post-detail' post.id %}">
                     <img src="{{ post.image.url }}" alt="" class="img-responsive" width="100%">
                     <p class="mb-4">
                         {{ post.content }}
@@ -31,14 +31,14 @@
                 </a>
                 <div class="card-footer row">
                     <div class="col-6" style="display: flex;">
-                        <small style="opacity: 0.4;">
+                        <small style="opacity: 0.8; color: rgba(255, 255, 255, 0.1) !important;">
                             <!-- Like Buttons Here -->
                             <a href="{% url 'like' post.pk%}">
                                 <i style="color: red; font-size: 16px;" class="fa fa-heart"></i>
                                 {{post.likes}} like(s)
                             </a>
                         </small>
-                        <small style="opacity: 0.4; margin-left:15px;">
+                        <small style="opacity: 0.8; margin-left:15px; color: rgba(255, 255, 255, 0.1) !important;">
                             <a href="/post/{{post.id}}/">
                                 <i style=" font-size: 16px; color: blue;" class="fa fa-comment"></i>
                                 {{ post.number_of_comments }} comment(s)
@@ -46,7 +46,7 @@
                         </small>
                     </div>
                     <div class="col-6">
-                        <small style="opacity: 0.4;" class="white-important d-flex full-width flex-row-reverse">
+                        <small style="opacity: 0.8; " class="white-important d-flex full-width flex-row-reverse">
                             {{ post.date_posted | date:"H:i l, d.m.y" }}
                         </small>
                     </div>
