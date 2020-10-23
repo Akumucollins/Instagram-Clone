@@ -1,8 +1,8 @@
 ***
 
-# PhotoGallery
+# Instagran Clone
 
-#### ** Friday, October 23 2020** ;
+## Friday, October 23 2020 ;
 
 ---
 
