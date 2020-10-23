@@ -28,7 +28,7 @@ h6 {
 }
 
 a{
-  color: white;
+  color: black;
   text-underline-position: none;
   text-decoration: none !important;
 }
@@ -105,7 +105,7 @@ input:focus {
 }
 
 .alert-danger {
-  color: #fff !important;
+  color: black !important;
   background-color: #004ffb !important;
   border-color: #004ffb !important;
 }
@@ -116,7 +116,7 @@ input:focus {
   margin-bottom: 20px;
 }
 .article-title {
-  color: #fff;
+  color: black;
 }
 a.article-title:hover {
   color: #fff;
@@ -137,7 +137,7 @@ a.article-title:hover {
 }
 
 .article-metadata a:hover {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
@@ -187,7 +187,7 @@ a.article-title:hover {
   position: relative;
   flex: 1 0 12rem;
   margin: 0.6rem;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
@@ -274,7 +274,7 @@ ul {
 }
 
 input[type="file"]::-webkit-file-upload-button {
-  color: white !important;
+  color: black !important;
   background-color: #fff !important;
   border-radius: 4px;
   border: 1px solid white;
