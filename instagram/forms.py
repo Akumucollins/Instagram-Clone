@@ -1,7 +1,8 @@
 from django import forms
-from .models import *
+from .models import Comment
 
-class UploadForm(forms.ModelForm):
+
+class CommentForm(forms.ModelForm):
     class Meta:
-        model = Image
-        fields =['profile_photo','author','caption','date_posted']
+        model = Comment
+        fields = ['content']
